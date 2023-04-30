@@ -1,7 +1,18 @@
+import Head from 'next/head'
+import Image from 'next/image'
+import { Inter } from '@next/font/google'
+import styles from '@/styles/Home.module.css'
+import Analysis from './Analysis/Analysis'
+
 export default function Home({ formattedDate }) {
   return (
     <>
-      <h1>Static page</h1>
+      <Head>
+        <title>Small Convert Tools | Convert Any Case</title>
+        <meta property="og:title" content="My page title" key="title" />
+        <link rel="icon" href="../convertcasemain.png"></link>
+    </Head>
+      <Analysis />
     </>
   );
 }

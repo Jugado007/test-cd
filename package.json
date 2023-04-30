@@ -9,11 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.8",
+    "@next/font": "13.1.2",
+    "convert-unicode-fonts": "^1.0.1",
+    "copy-to-clipboard": "^3.3.3",
+    "eslint-config-next": "^13.1.2",
+    "flip-text": "^1.2.0",
+    "js-base64": "^3.7.4",
+    "morse-code-converter": "^1.0.2",
+    "nato-phonetic-alphabet": "^2.0.4",
     "autoprefixer": "10.4.14",
     "next": "13.3.1",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.2"
+    "tailwindcss": "3.3.2",
+    "react-convert-image": "^0.5.0",
+    "react-icons": "^4.7.1",
+    "react-string-replace": "^1.1.0",
+    "roman-numerals-convert": "^1.0.5",
+    "text-to-binary-converter": "^1.0.2",
+    "to-hex": "0.0.18",
+    "to-zalgo": "^1.0.1",
+    "wide-text": "^0.1.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "uninstall": "^0.0.0"
   }
 }
